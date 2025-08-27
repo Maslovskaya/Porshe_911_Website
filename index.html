@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Porsche 911 — Легенда скорости</title>
+
+  <!--CSS styles-->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts: Playfair Display и Lato -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome для иконок -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+</head>
+<body>
+
+  <!-- Навигация -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#home" class="active">Главная</a></li>
+      <li><a href="#history">История</a></li>
+      <li><a href="#specs">Характеристики</a></li>
+      <li><a href="#gallery">Галерея</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <!-- Главная секция (Hero) -->
+  <section class="hero" id="home">
+    <div class="hero-content fade-in">
+      <h1>Porsche 911</h1>
+      <p>Символ скорости, инженерного совершенства и легендарного дизайна с 1963 года.</p>
+      <a href="#specs" class="btn">Узнать больше</a>
+      <a href="#contact" class="btn btn-outline">Записаться на тест-драйв</a>
+    </div>
+  </section>
+
+  <!-- История -->
+  <section class="section" id="history">
+    <div class="container">
+      <div class="flex">
+        <img src="img/1.jpg" alt="Porsche 911 классика">
+        <div class="text-content fade-in">
+          <h2>Легенда, рождённая в 1963 году</h2>
+          <p>Porsche 911 — один из самых узнаваемых автомобилей в мире. Впервые представленный на автосалоне во Франкфурте в 1963 году, он с тех пор стал символом немецкого инженерного гения и спортивного духа.</p>
+          <p>Созданный под руководством Фердинанда Порше, 911 сохранил свою уникальную заднемоторную компоновку и фирменные круглые фары, став эталоном для спортивных купе на десятилетия вперёд.</p>
+          <p>За более чем 60 лет существования Porsche 911 прошёл путь от дорожного спорткара до настоящего гоночного монстра, побеждая на легендарных трассах, таких как Ле-Ман, Нюрбургринг и Дакар.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Характеристики -->
+  <section class="section section-alt" id="specs">
+    <div class="container">
+      <h2>Технические характеристики</h2>
+      <div class="specs fade-in">
+        <div class="spec-item">
+          <i class="fas fa-tachometer-alt"></i>
+          <h3>Мощность</h3>
+          <p>До 700 л.с. (в версии GT3 RS)</p>
+        </div>
+        <div class="spec-item">
+          <i class="fas fa-bolt"></i>
+          <h3>Разгон 0-100 км/ч</h3>
+          <p>Менее 3 секунд</p>
+        </div>
+        <div class="spec-item">
+          <i class="fas fa-gas-pump"></i>
+          <h3>Двигатель</h3>
+          <p>Оппозитный 6-цилиндровый, 3.0–4.0 л</p>
+        </div>
+        <div class="spec-item">
+          <i class="fas fa-road"></i>
+          <h3>Привод</h3>
+          <p>Задний или полный (в версии 4S)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Галерея -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <h2>Галерея</h2>
+      <div class="gallery fade-in">
+        <img src="img/11.jpg" alt="Porsche 911 сбоку">
+        <img src="img/2.jpg" alt="Салон Porsche 911">
+        <img src="img/3.jpg" alt="Porsche 911 на трассе">
+        <img src="img/4.jpg" alt="Porsche 911 задний вид">
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты / Форма -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2>Запишитесь на тест-драйв</h2>
+      <div class="form-container fade-in">
+        <h3>Оставьте заявку</h3>
+        <form id="test-drive-form">
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" placeholder="Ваше имя" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Ваш email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" placeholder="Ваш телефон">
+          </div>
+          <div class="form-group">
+            <label for="date">Желаемая дата</label>
+            <input type="date" id="date" required>
+          </div>
+          <button type="submit" class="btn btn-block">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer>
+    <div class="container">
+      <p>&copy; Porsche 911 Official. Maslovskaya Ksenya 2025</p>
+      <p>Создано с любовью к скорости и дизайну.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript для плавной прокрутки и анимаций -->
+  <script>
+    // Плавная прокрутка по якорям
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        // Обновление активного пункта меню
+        document.querySelectorAll('nav ul li a').forEach(link => {
+          link.classList.remove('active');
+        });
+        this.classList.add('active');
+      });
+    });
+
+    // Анимация появления при скролле
+    const fadeElements = document.querySelectorAll('.fade-in');
+
+    const checkFade = () => {
+      fadeElements.forEach(el => {
+        const elementTop = el.getBoundingClientRect().top;
+        const elementVisible = 150;
+        if (elementTop < window.innerHeight - elementVisible) {
+          el.classList.add('show');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', checkFade);
+    window.addEventListener('load', checkFade);
+
+    // Форма
+    document.getElementById('test-drive-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Спасибо! Ваша заявка на тест-драйв Porsche 911 отправлена. Мы свяжемся с вами в ближайшее время.');
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
