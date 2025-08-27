@@ -8,11 +8,16 @@ The goal of the site is to educate, inspire, and engage visitors by presenting t
 
 More than just a presentation, it’s a visual journey through decades of innovation, precision, and passion.
 
-###🎨 Visual Style
+##🎨 Visual Style
 Color Palette: Deep black, clean white, and soft gray with rose gold accents for elegance and contrast
 Typography: Elegant serif headings (Playfair Display) paired with clean sans-serif body text (Lato)
 Design Language: Minimalist, premium, and dynamic — reflecting the car’s luxury and performance
 Layout: Balanced sections with full-screen hero, smooth scrolling, and subtle animations
 Imagery: High-resolution photos of the Porsche 911 in motion and detail, creating an immersive experience
+
+## Screenshots
+![Site](img_readme/1.png)
+![Site](img_readme/2.png)
+![Site](img_readme/3.png)
 
 
